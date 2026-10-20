@@ -9,6 +9,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Agent × Real2Sim2Real
 
+- 2026-10-16 [Self-Building Labs](https://arxiv.org/abs/2610.23826) — Given a scientific goal, an agent system builds the lab layout, its digital twin, robot skills and workflows from whatever setup exists, then runs a real quantum-dot synthesis experiment.
 - 2026-10-15 [GRASE: Geometry-native Real-to-sim Agentic Scene Modeling from Video](https://arxiv.org/abs/2610.21498) — Agent places generated assets and keeps revising them against the captured multi-view video, turning a video into a simulation-ready scene instead of a one-pass pipeline.
 - 2026-10-13 [RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks](https://arxiv.org/abs/2610.18835) — Newton-based toolkit that exposes solver, contact model and physics parameters so humans or coding agents can tune a sim to observed real behavior.
 - 2026-10-12 [PhysCodeGym: Benchmarking Coding Agents for Physically Verifiable 4D Reconstruction](https://arxiv.org/abs/2610.17288) — Benchmark of 156 video-to-simulation tasks where coding agents write and revise Blender scenes from simulation feedback; counterfactual tests expose contact and support errors that ordinary checks miss.
