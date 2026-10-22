@@ -9,6 +9,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Agent × Real2Sim2Real
 
+- 2026-10-20 [SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images](https://arxiv.org/abs/2610.28585) — Agent rebuilds an editable sim-ready scene from one image with geometric, visual and physical tools, then runs edit-and-validate loops in a physics simulator; the scenes predict real-robot policy outcomes better than the baseline.
 - 2026-10-20 [NeoWorld-3: From Pixels to Code-Defined Physical Worlds](https://arxiv.org/abs/2610.27690) — Coding-agent framework that rebuilds interactive objects and scenes from images as executable programs, with tool APIs for inspect-edit-refine and physics validation; trajectories planned in the twins run zero-shot on a real dual-arm robot.
 - 2026-10-16 [Self-Building Labs](https://arxiv.org/abs/2610.23826) — Given a scientific goal, an agent system builds the lab layout, its digital twin, robot skills and workflows from whatever setup exists, then runs a real quantum-dot synthesis experiment.
 - 2026-10-15 [GRASE: Geometry-native Real-to-sim Agentic Scene Modeling from Video](https://arxiv.org/abs/2610.21498) — Agent places generated assets and keeps revising them against the captured multi-view video, turning a video into a simulation-ready scene instead of a one-pass pipeline.
@@ -40,6 +41,8 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Real2Sim2Real
 
+- 2026-10-20 [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880) — Tracks objects in one monocular human video with Gaussian splats, aligns digital cousins, and generates thousands of robot demos in IsaacSim or MuJoCo to train a VLA used on real robots.
+- 2026-10-20 [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432) — Trains navigation policies in a digital twin of a real facility with Cosmos sim-to-real augmentation, and runs the same scenarios in twin and reality to measure the gap on industrial robots.
 - 2026-10-14 [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336) — Scans a workspace, extracts assets, registers them to the robot base at metric scale, and scales a few reference motions into manipulation data.
 - 2026-10-14 [Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training](https://arxiv.org/abs/2610.19479) — Meta-learns which simulation parameters to generate so co-training data maximizes real-world policy performance, without manual sim-real alignment.
 - 2026-10-13 [YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation](https://arxiv.org/abs/2610.17521) — Quantifies how 3DGS reconstruction quality affects real-to-sim VLA evaluation under wide fisheye wrist views.
