@@ -41,6 +41,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Real2Sim2Real
 
+- 2026-10-21 [AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2610.30097) — RL post-training for VLAs with subtask-level credit assignment and exploration, paired with a Real2Sim2Real pipeline that moves online sim RL onto real robots.
 - 2026-10-20 [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880) — Tracks objects in one monocular human video with Gaussian splats, aligns digital cousins, and generates thousands of robot demos in IsaacSim or MuJoCo to train a VLA used on real robots.
 - 2026-10-20 [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432) — Trains navigation policies in a digital twin of a real facility with Cosmos sim-to-real augmentation, and runs the same scenarios in twin and reality to measure the gap on industrial robots.
 - 2026-10-14 [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336) — Scans a workspace, extracts assets, registers them to the robot base at metric scale, and scales a few reference motions into manipulation data.
