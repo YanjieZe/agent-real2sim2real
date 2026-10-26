@@ -9,6 +9,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Agent × Real2Sim2Real
 
+- 2026-10-22 [WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations](https://arxiv.org/abs/2610.31834) — Coding agent turns in-the-wild robot demos into interactive digital twins by refining an executable world program with image/3D generation tools and verification feedback; on DROID it keeps recorded robot trajectories physically valid on replay.
 - 2026-10-20 [SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images](https://arxiv.org/abs/2610.28585) — Agent rebuilds an editable sim-ready scene from one image with geometric, visual and physical tools, then runs edit-and-validate loops in a physics simulator; the scenes predict real-robot policy outcomes better than the baseline.
 - 2026-10-20 [NeoWorld-3: From Pixels to Code-Defined Physical Worlds](https://arxiv.org/abs/2610.27690) — Coding-agent framework that rebuilds interactive objects and scenes from images as executable programs, with tool APIs for inspect-edit-refine and physics validation; trajectories planned in the twins run zero-shot on a real dual-arm robot.
 - 2026-10-16 [Self-Building Labs](https://arxiv.org/abs/2610.23826) — Given a scientific goal, an agent system builds the lab layout, its digital twin, robot skills and workflows from whatever setup exists, then runs a real quantum-dot synthesis experiment.
