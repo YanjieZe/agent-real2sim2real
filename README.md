@@ -48,6 +48,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Real2Sim2Real
 
+- 2026-10-27 [GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction](https://arxiv.org/abs/2610.37818) — 3DGS surface reconstruction trained directly on fisheye images beyond 180° FoV, with an aligned collision mesh, giving a LiDAR-free simulation-ready digital twin for robots.
 - 2026-10-27 [ActiveAlign: Aligning Egocentric Manipulation via Active Perception](https://arxiv.org/abs/2610.36859) — Closes the real2sim gap with active perception: hand waving for differentiable-rendering hand-eye calibration and touching for mm-level object alignment; used to curate sim scenes and for fine manipulation on a Unitree G1.
 - 2026-10-26 [Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies](https://arxiv.org/abs/2610.35626) — Reconstructs the real workspace with 3DGS and renders robot-aligned wrist-camera views with reaching trajectories to fine-tune VLAs for e-waste disassembly, in place of most teleoperation.
 - 2026-10-25 [AuRA: From Atoms to Bits through Autonomous Robot Interaction](https://arxiv.org/abs/2610.34452) — Robot collects interaction data on its own for physics-informed digital twins of deformable objects, cutting human labor versus PhysTwin-style manual collection at comparable reconstruction quality.
