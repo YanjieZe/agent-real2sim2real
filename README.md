@@ -9,6 +9,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Agent × Real2Sim2Real
 
+- 2026-11-03 [ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms](https://arxiv.org/abs/2611.04255) — Fuses wall-mounted and head-mounted cameras into a shared object-level digital twin; an LLM agent plans over it with pre-programmed skills and replans from twin updates and execution outcomes, tested in simulated ORs reconstructed from real rooms and on a humanoid in a physical mock OR.
 - 2026-11-02 [VerifLM: Physically Verified Image-Edit-Guided Goal Pose Generation for Robotic Manipulation](https://arxiv.org/abs/2611.03268) — A VLM writes sampling constraints and a validation program for image-edited goals; candidates are checked in parallel simulations built from RGB-D reconstruction with varied geometry and physics, and ranked by how many worlds they pass.
 - 2026-11-02 [Closing the Dynamics Gap through Self-Directed Robotic Interaction](https://arxiv.org/abs/2611.02691) — CUE: agentic Real2Sim2Real system that identifies friction and restitution by interacting on its own, with no resets, targeting interactions where its sim is least accurate; tested on billiards in sim and deployed on a real pool table.
 - 2026-10-27 [LabWorld: Learning Interactive 4D Worlds for Scientific Experimentation](https://arxiv.org/abs/2610.36592) — Agent-driven Real2Sim that rebuilds interactive 4D lab worlds (assets, metric scene, object states, procedure events) from monocular lab videos as editable state for future embodied science agents.
@@ -50,6 +51,7 @@ Newest first. Each line: date, paper, one-line why it matters.
 
 ## Real2Sim2Real
 
+- 2026-11-04 [TwinBridge: Digital Twin-Driven Policy and Reward Transfer for Real-World Reinforcement Learning in Laboratory Robotics](https://arxiv.org/abs/2611.06442) — Builds lab digital twins from 3D Gaussian splatting plus physics simulation, then uses them for policy initialization and a distilled visual reward model that drives human-in-the-loop online RL on five real tasks.
 - 2026-11-03 [Physical Diffusion Policy via MPM-Guided 3D Gaussian Simulation](https://arxiv.org/abs/2611.04493) — Recovers material properties from visual demonstrations with 3DGS and differentiable MPM, then conditions a material-aware diffusion policy on them; a physics memory bank avoids online simulation optimization at deployment; tested on simulated and real objects.
 - 2026-11-02 [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968) — Reconstructs human-object interactions from video through an object-centric contact plan, trains a residual policy in simulation to make the planned contacts, and executes contact-rich tasks on a real Unitree G1.
 - 2026-11-02 [KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL](https://arxiv.org/abs/2611.03138) — Low-cost open hardware testbed with an Isaac Lab digital twin and a learned neural actuator model; adversarial MARL policies transfer zero-shot.
